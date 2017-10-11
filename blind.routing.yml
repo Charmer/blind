@@ -1,0 +1,13 @@
+blind.text:
+  path: '/blind/change/text'
+  defaults:
+    _controller: '\Drupal\blind\Controller\BlindController::text'
+  requirements:
+    _access: 'TRUE'
+
+blind.change:
+  path: '/blind/change/full'
+  defaults:
+    _controller: '\Drupal\blind\Controller\BlindController::full'
+  requirements:
+    _access: 'TRUE'

@@ -1,0 +1,6 @@
+name: Blind theme switcher
+description: 'Switch theme for blind users'
+type: module
+core: 8.x
+version: 1.0
+package: KPFU

@@ -1,0 +1,5 @@
+services:
+  theme.negotiator.blind_themeswitcher:
+    class: Drupal\blind\Theme\BlindThemeswitcherNegotiator
+    tags:
+      - { name: theme_negotiator, priority: 10 }
